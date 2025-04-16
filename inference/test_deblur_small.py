@@ -283,7 +283,7 @@ if __name__ == '__main__':
         args.model_path = 'pretrained_models/net_dvd_deblur_small.pth'
         args.result_path = 'infer_results/DVD'
     elif args.default_data == 'GOPRO':
-        args.data_path = './dataset/GOPRO/test/'
+        args.data_path = '/content/drive/MyDrive/dataset/GOPRO/test/'
         args.model_path = 'pretrained_models/net_gopro_deblur_small.pth'
         args.result_path = 'infer_results/gopro'
 
