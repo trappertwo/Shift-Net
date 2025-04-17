@@ -71,6 +71,7 @@ class BaseModel():
         net = net.to(self.device)
         if self.opt['dist']:
             find_unused_parameters = True
+            torch.cuda.set_device(self.opt['rank'])
             net = DistributedDataParallel(
                 net,
                 device_ids=[torch.cuda.current_device()],
