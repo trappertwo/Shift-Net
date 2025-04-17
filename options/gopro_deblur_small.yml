@@ -12,7 +12,7 @@ num_gpu: 8
 manual_seed: 10
 n_sequence: 13
 n_frames_per_video: 100
-dir_data: ./dataset/GoPro/train/
+dir_data: /content/drive/MyDrive/research_project/data/GOPRO/train/
 n_colors: 3
 rgb_range: 1
 no_augment: False
